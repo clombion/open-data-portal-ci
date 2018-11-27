@@ -71,11 +71,11 @@ ce qui donne:
      1. regardé le premier objet de la liste 
      2. compté le nombre total d'objets pour voir s'ils correspondaient à l'élément id (non, mais c'est courant dans ce genre de système, car des éléments ont pu être supprimés sans que leur id n'ait été réutilisée par la base de donnée),
      3. exporté toute la liste dans un csv
-
+```
 1. curl http://data.gouv.ci/opendata/api/datasets | jq '.data[0]''
 2. curl http://data.gouv.ci/opendata/api/datasets | jq '.data | length'
 3. curl -s http://data.gouv.ci/opendata/api/datasets | jq -r '.data[] | [.id, .created_at, .description, .last_modifie, .organization, .organization_id, .slug, .tags, .title] | @csv' > data-portail-ci.csv
-
+```
 * Le fichier est ensuite importé sur Google Spreadsheets
 
 NETTOYER
