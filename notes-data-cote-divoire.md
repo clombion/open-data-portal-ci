@@ -52,20 +52,20 @@ RECUPERER & VERIFIER
 (enregistrée sous le raccourci clavier jqsummary" pour moi)
 
 ce qui donne:
-
-`"."
-".data"
-".data[]"
-".data[].created_at"
-".data[].description"
-".data[].id"
-".data[].last_modifie"
-".data[].organization"
-".data[].organization_id"
-".data[].slug"
-".data[].tags"
-".data[].title"`
-
+```
+"."     
+".data"     
+".data[]"     
+".data[].created_at"     
+".data[].description"     
+".data[].id"     
+".data[].last_modifie"     
+".data[].organization"     
+".data[].organization_id"     
+".data[].slug"     
+".data[].tags"     
+".data[].title"
+```
 
 * j'ai ensuite: 
      1. regardé le premier objet de la liste 
